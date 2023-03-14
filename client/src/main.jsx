@@ -1,10 +1,13 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App";
+
 import { ReactDOM } from "react-dom/client";
 import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
-import "./index.css";
 import { BrowserRouter as Router} from "react-router-dom";
+
+
+import App from "./App";
+import "./index.css";
 
 // This is the chainId your dApp will work on.
 const activeChainId = ChainId.Mainnet;
