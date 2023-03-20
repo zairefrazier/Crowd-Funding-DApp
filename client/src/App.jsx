@@ -4,7 +4,6 @@ import { CampaignDetails, CreateCampaign, Home, Profile }from "./pages";
 import { SideBar, Navbar } from "./components";
 
 
-
 const App = () => {
   return (
     <div className="relative sm:-8 p-4 bg-[#13131a] min-h-screen flex flex-row">
@@ -14,7 +13,6 @@ const App = () => {
       </div>
       <div className="flex-1 max-sm:w-full max-w-[1280px] mx-auto sm:pr-5 text-white">
         <Navbar />
-
         <Routes>
 
           <Route path="/" element={ <Home />} />
