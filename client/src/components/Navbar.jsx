@@ -8,7 +8,6 @@ const Navbar = () => {
   const navigate = useNavigate();
   const [isActive, setIsActive] = useState('dashboard');
   const [toggleDrawer, setToggleDrawer] = useState(false);
-
   const address = '0x0001';
 
   return (
