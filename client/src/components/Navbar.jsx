@@ -20,7 +20,7 @@ const Navbar = () => {
           <img src={search} alt='search' className='w-[15px] h-[15px] object-contain'/>
         </div>
       </div>
-      <div className='sm:flex flex-row justify-end gap-4'>
+      <div className='sm:flex flex-row justify-end gap-5'>
        <customButton 
         btnType='button'
         title={address ? 'Create a Campaign' : 'Connect'}
